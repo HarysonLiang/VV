@@ -1,0 +1,34 @@
+/*
+ Localizable.strings
+ */
+//-------------------------------------------------------------------------------
+
+"SOUND" = "声音";
+"END" = "终!!";
+"GET_SCORE" = "成绩 : %@";
+"TOUCH_MODE" = "点击模式";
+"GRAVITY_MODE" = "重力模式";
+"BEST_SCORE" = "%@ 最高分 : %@";
+"LEADERBOARD" = "排行榜";
+"TRY_AGAIN" = "再试一次";
+"SHARE" = "分享";
+"HELP" = "帮助";
+"RATE" = "点评";
+"SHARE_TEXT" = "iPhone/iPad Game - \"V&V\" 不错！挺好玩的！大家一起来玩啦！";
+"HELP_TOUCH_MODEL" = "点击模式\n\n1. 以屏幕中心为参照点, 点击屏幕四周，控制圆点向相应区域移动。\n\n2. 点击位置离中心点越远速度会越快，相反，点击位置越靠近中心点圆点移动速度会越慢。";
+"HELP_GRAVITY_MODE" = "重力模式\n\n1. 手持设备平衡于地面，以屏幕中心为参照点，设备倾斜方向即是圆点移动方向。\n\n2. 当倾斜角色增大时，速度会变快，否则速度会变慢。";
+"HOW_TO_PLAY" = "怎么玩？";
+"CLOSE" = "关闭";
+"GAME_INFO" = "上帝之点 [贪食点]\n\nVersion %@\n\nE-mail:1600849846@qq.com\n\nCopyright (c) 2017 MobileGameTree. All rights reserved.";
+"GAME_CENTER_UNAVAILABLE" = "Game Center 未开启";
+"SIGNED_IN_GC" = "请登入 Game Center";
+"ABSORB_TEXT" = "吸收所有的小圆点，以撑爆屏幕为目标";
+"CONGRATULATIONS" = "恭喜你！";
+"YOU_ARE_THE_GOD" = "你成功了，你最棒!\n\n你就是上帝!!!!!";
+"RESTART" = "重新开始";
+"NEW_BEST" = "纪录 : %@";
+"ONE_MOMENT" = "请稍候...";
+"STORY_INFO" = "这是一个关于上帝之点的故事。\n故事从这里开始...\n请";
+"TAP_TO_PLAY" = "点击开始游戏";
+"TIP" = "打赏 : %@";
+"THANKS_TIP" = "非常感谢您的打赏!";

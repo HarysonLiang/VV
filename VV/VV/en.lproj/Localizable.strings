@@ -1,0 +1,34 @@
+/* 
+   Localizable.strings
+ */ 
+//------------------------------------------------------------------------------- 
+
+"SOUND" = "SOUND";
+"END" = "End!!";
+"GET_SCORE" = "SCORE : %@";
+"TOUCH_MODE" = "TOUCH MODE";
+"GRAVITY_MODE" = "GRAVITY MODE";
+"BEST_SCORE" = "%@ BEST : %@";
+"LEADERBOARD" = "LEADERBOARD";
+"TRY_AGAIN" = "TRY AGAIN";
+"SHARE" = "SHARE";
+"HELP" = "HELP";
+"RATE" = "RATE";
+"SHARE_TEXT" = "I love this iPhone/iPad Game - \"V&V\"";
+"HELP_TOUCH_MODEL" = "TOUCH MODE\n\n1. The center of the screen as the reference point, click on the upper right corner area, the upper left corner area, the lower right corner area, the lower left corner area, the main dot would move to the corresponding area.\n\n2. Clicking more near the edge of the screen the dot’s movement speed will be faster, otherwise, Clicking more near the center of the screen the dot’s movement speed will be slower.";
+"HELP_GRAVITY_MODE" = "GRAVITY MODE\n\n1. Put your device parallel to the ground, the center of the screen as the reference point. When the device towards the floor tilt for the Screen four horns, the main dot would move to the corresponding area.\n\n2. When the skew angle increases, the speed of the dot will become faster. otherwise, the speed will become slower.";
+"HOW_TO_PLAY" = "HOW TO PLAY";
+"CLOSE" = "Close";
+"GAME_INFO" = "Dot of God [Greedy Dot]\n\nVersion %@\n\nE-mail:1600849846@qq.com\n\nCopyright (c) 2017 MobileGameTree. All rights reserved.";
+"GAME_CENTER_UNAVAILABLE" = "Game Center Unavailable";
+"SIGNED_IN_GC" = "Please signed in Game Center";
+"ABSORB_TEXT" = "Absorb the little dots to grow up to fill the screen";
+"CONGRATULATIONS" = "Congratulations!";
+"YOU_ARE_THE_GOD" = "You are success, you are the best!\n\nYou are the God!!!!!";
+"RESTART" = "Restart";
+"NEW_BEST" = "BEST : %@";
+"ONE_MOMENT" = "ONE MOMENT...";
+"STORY_INFO" = "This is a story about the dot of God.\nThe story begins from here...\nPlease";
+"TAP_TO_PLAY" = "Tap to play";
+"TIP" = "Tips : %@";
+"THANKS_TIP" = "Thank you for your tips!";

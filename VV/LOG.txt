@@ -1,0 +1,15 @@
+《V&V - Greedy Dot - Dot of God》
+
+Version:1.0
+上线时间：2015-04-07
+
+===========================================================================================
+功能开关：
+ENABLE_IAD
+--》apple iad开关，包括endView底部广告及游戏结束后弹出广告
+
+ENABLE_VUNGLE
+--》VUNGLE视频广告开关，游戏结束后弹出广告
+
+ENABLE_GOOGLE_BANNER
+--》Google banner ads开关

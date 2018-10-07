@@ -547,7 +547,7 @@
 #ifdef ENABLE_GOOGLE_BANNER
 - (void)initGoogleBannerView
 {
-    GADAdSize adSize = [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad ? kGADAdSizeLeaderboard : kGADAdSizeLargeBanner;
+    GADAdSize adSize = kGADAdSizeSmartBannerPortrait;
     
     // Initialize the banner at the bottom of the screen.
     CGPoint origin = CGPointMake((self.frame.size.width - CGSizeFromGADAdSize(adSize).width)/2,

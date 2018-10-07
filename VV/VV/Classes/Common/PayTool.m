@@ -80,7 +80,7 @@ static PayTool* payToolShare = nil;
         //SKPayment *payment = [SKPayment paymentWithProduct:skProduct];
         SKMutablePayment* payment = [SKMutablePayment paymentWithProduct:skProduct];
         
-        payment.requestData = [[NSString stringWithFormat:@"%d",orderId] dataUsingEncoding:NSUTF8StringEncoding];
+        payment.applicationUsername = [NSString stringWithFormat:@"%d",orderId];
         payment.quantity = 1;
         
         NSLog(@"---------发送购买请求------------");
@@ -236,7 +236,7 @@ static PayTool* payToolShare = nil;
     NSLog(@"-----completeTransaction--------");
     // Your application should implement these two methods.
     NSString *product = transaction.payment.productIdentifier;
-    int orderId = [[[NSString alloc] initWithData:transaction.payment.requestData encoding:NSUTF8StringEncoding] intValue];
+    int orderId = [transaction.payment.applicationUsername intValue];
     NSString* receipt = [PayTool base64_encode:(uint8_t *)transaction.transactionReceipt.bytes length:transaction.transactionReceipt.length];
     NSLog(@"orderId:%d\nreceipt:%@",orderId,receipt);
     
